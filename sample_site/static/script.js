@@ -1,7 +1,7 @@
 // put some js if you want
 <script type="text/javascript">
 <!--
- var imlocation = "images/";
+ var imlocation = "hockey/";
  var currentdate = 0;
  var image_number = 0;
  function ImageArray (n) {
@@ -11,9 +11,10 @@
    }
  }
  image = new ImageArray(3)
- image[0] = 'image1.gif'
- image[1] = 'image2.gif'
- image[2] = 'image3.gif'
+ image[0] = 'hockey1.jpg'
+ image[1] = 'hockey2.jpg'
+ image[2] = 'hockey3.jpg'
+ image[3] = 'hockey4.jpg'
  var rand = 60/image.length
  function randomimage() {
  	currentdate = new Date()
