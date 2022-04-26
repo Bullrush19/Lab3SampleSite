@@ -17,6 +17,7 @@ def index():
     f = open("count.txt", "w")
     f.write(str(count))
     f.close()
+    
 
     # Render HTML with count variable
     return render_template("index.html", count=count)
